@@ -22,12 +22,12 @@ Each task has its own Markdown page with detailed goals, background, and "defini
 
 | #     | Title                                   | Focus                                                                                                    | Skills / Tools                                 | Link                               |
 | ----- | --------------------------------------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------- | ---------------------------------- |
-| **1** | Implement mzQC Export in pMultiQC       | Map pMultiQC's internal QC data to the mzQC schema and generate valid `.mzQC` outputs.                   | Python, JSON, proteomics QC                    | [Task 1 →](./task1_mzqc_export.md) |
-| **2** | Define and Review QC Metrics            | Curate a tiered QC metric ontology (core, extended, specialized) and align with mzQC CV terms.           | QC expertise, controlled vocabularies          | [Task 2 →](./task2_metrics.md)     |
-| **3** | Build Adapters for Additional Workflows | Extend pMultiQC to parse outputs from new tools (e.g. MSFragger, Comet, OpenMS workflows).               | Python, data parsing, proteomics tools         | [Task 3 →](./task3_adapters.md)    |
-| **4** | Strengthen SDRF Integration             | Use SDRF-Proteomics metadata to contextualize QC and group results by experiment, sample, or condition.  | Python, SDRF schema, FAIR metadata             | [Task 4 →](./task4_sdrf.md)        |
-| **5** | Explore ID-Free QC Modules              | Develop QC metrics directly from raw data (mzML) without identifications.                                | Python, pyOpenMS / Pyteomics, MS data analysis | [Task 5 →](./task5_idfree.md)      |
-| **6** | Optional Extensions                     | Build complementary prototypes such as dashboards, benchmark datasets, or ML-based QC anomaly detection. | Open-ended, web/app development, ML            | [Task 6 →](./task6_optional.md)    |
+| **1** | Implement mzQC Export in pMultiQC       | Map pMultiQC's internal QC data to the mzQC schema and generate valid `.mzQC` outputs.                   | Python, JSON, proteomics QC                    | [Task 1](./task1_mzqc_export.md) |
+| **2** | Define and Review QC Metrics            | Curate a tiered QC metric ontology (core, extended, specialized) and align with mzQC CV terms.           | QC expertise, controlled vocabularies          | [Task 2](./task2_metrics.md)     |
+| **3** | Build Adapters for Additional Workflows | Extend pMultiQC to parse outputs from new tools (e.g. MSFragger, Comet, OpenMS workflows).               | Python, data parsing, proteomics tools         | [Task 3](./task3_adapters.md)    |
+| **4** | Strengthen SDRF Integration             | Use SDRF-Proteomics metadata to contextualize QC and group results by experiment, sample, or condition.  | Python, SDRF schema, FAIR metadata             | [Task 4](./task4_sdrf.md)        |
+| **5** | Explore ID-Free QC Modules              | Develop QC metrics directly from raw data (mzML) without identifications.                                | Python, pyOpenMS / Pyteomics, MS data analysis | [Task 5](./task5_idfree.md)      |
+| **6** | Optional Extensions                     | Build complementary prototypes such as dashboards, benchmark datasets, or ML-based QC anomaly detection. | Open-ended, web/app development, ML            | [Task 6](./task6_optional.md)    |
 
 ---
 
@@ -70,7 +70,7 @@ Each task page contains its own detailed "definition of done," but all contribut
 - Pair up with others — each task connects to the rest, so cross-talk is key.
 - Share partial results early! Even prototypes and notes are valuable for integration.
 
---
+---
 
 ## Final Integration
 
