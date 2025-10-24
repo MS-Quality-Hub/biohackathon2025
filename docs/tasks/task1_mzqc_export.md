@@ -10,10 +10,10 @@ You'll bridge the gap between pMultiQC's internal data structures and the offici
 ## Objectives
 
 By the end of this task, you should have:
-- ✅ A new pMultiQC module that writes valid mzQC output.
-- ✅ Provenance tracking of input files, workflow versions, and software environment.
-- ✅ Validation of produced files against the official mzQC schema.
-- ✅ Example outputs under `/examples/mzqc/`.
+- [x] A new pMultiQC module that writes valid mzQC output.
+- [x] Provenance tracking of input files, workflow versions, and software environment.
+- [x] Validation of produced files against the official mzQC schema.
+- [x] Example outputs under `/examples/mzqc/`.
 
 ---
 
