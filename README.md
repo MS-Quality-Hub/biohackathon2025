@@ -1,6 +1,7 @@
 # 🧬 Project 29: Repository-Scale Quality Control in Proteomics
 *ELIXIR BioHackathon 2025*
 
+> [!IMPORTANT]
 > **Let's make public proteomics data FAIR and re-usable — at repository scale.**
 
 Mass spectrometry proteomics has generated an enormous global resource:
