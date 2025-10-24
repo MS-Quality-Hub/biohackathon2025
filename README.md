@@ -3,12 +3,12 @@
 
 > **Let's make public proteomics data FAIR and re-usable — at repository scale.**
 
-Mass spectrometry proteomics has generated an enormous global resource:  
-**>31,000 datasets** in PRIDE alone, representing millions of biological samples.  
-Yet, much of this treasure trove remains underused because quality information is inconsistent or missing.  
+Mass spectrometry proteomics has generated an enormous global resource:
+**>31,000 datasets** in PRIDE alone, representing millions of biological samples.
+Yet, much of this treasure trove remains underused because quality information is inconsistent or missing.
 
-This project tackles that head-on.  
-Together, we'll build an **automated, standardized quality control (QC) framework** that can operate directly on public data repositories — producing **machine-readable QC summaries (mzQC)** linked with rich **experimental metadata (SDRF-Proteomics)**.  
+This project tackles that head-on.
+Together, we'll build an **automated, standardized quality control (QC) framework** that can operate directly on public data repositories — producing **machine-readable QC summaries (mzQC)** linked with rich **experimental metadata (SDRF-Proteomics)**.
 
 By the end of the week, our prototype will:
 - Generate mzQC outputs directly from **pMultiQC**.
@@ -24,25 +24,23 @@ If you're excited about open science, reproducible bioinformatics, and hands-on 
 
 ---
 
-## How It Works
+## Project Goals
 
-During this hackathon session we will connect key community standards and software:
+**Main objective:**
+Build an end-to-end framework to enrich public proteomics datasets with **standardized quality control (QC) information**.
+
+**Key components:**
 - [**mzQC**](https://github.com/HUPO-PSI/mzQC): HUPO-PSI JSON format for standardized QC reporting.
 - [**pMultiQC**](https://github.com/bigbio/pmultiqc): modular, multi-workflow QC tool for proteomics pipelines.
 - [**SDRF-Proteomics**](https://www.ebi.ac.uk/pride/markdownpage/sdrf): standardized experimental metadata schema.
 
-These components will be combined to generate repository-scale QC summaries directly from public datasets — ready for visualization, benchmarking, and machine learning.
-
----
-
-## Objectives
-
-1. Implement **mzQC export** in pMultiQC.
-2. Define a **tiered QC metric ontology** (core / extended / specialized).
-3. Add **adapters** for major search engines and quantification workflows.
-4. Integrate **SDRF-Proteomics** metadata into QC summaries.
-5. Prototype **ID-free QC** modules working directly on raw data.
-6. Produce documentation + examples for repository integration.
+**Expected outcomes by the end of the hackathon:**
+- pMultiQC extended to export results in **mzQC** format.
+- A refined and tiered **QC metric ontology**.
+- Broader workflow coverage via **new adapters**.
+- Enhanced **SDRF integration** for metadata-driven QC.
+- Prototype **ID-free QC** modules for raw-data assessment.
+- Documentation and examples for repository integration.
 
 ---
 
