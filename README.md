@@ -46,17 +46,15 @@ Build an end-to-end framework to enrich public proteomics datasets with **standa
 
 ## Documentation & Resources
 
-| Topic                            | Description                                          | Link                                                                 |
-| -------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------------- |
-| Tasks Overview                   | Summary of all hackathon tasks and roles             | [docs/tasks/README.md](./docs/tasks/README.md)                       |
-| Task 1 — mzQC Export in pMultiQC | Implement mzQC output generation                     | [docs/tasks/task1_mzqc_export.md](./docs/tasks/task1_mzqc_export.md) |
-| Task 2 — Tiered QC Metrics       | Curate and define core/extended metrics              | [docs/tasks/task2_metrics.md](./docs/tasks/task2_metrics.md)         |
-| Task 3 — Workflow Adapters       | Add support for new tools (e.g., FragPipe, MaxQuant) | [docs/tasks/task3_adapters.md](./docs/tasks/task3_adapters.md)       |
-| Task 4 — SDRF Integration        | Link sample metadata to QC analyses                  | [docs/tasks/task4_sdrf.md](./docs/tasks/task4_sdrf.md)               |
-| Task 5 — ID-Free QC              | Develop raw-level QC modules                         | [docs/tasks/task5_idfree.md](./docs/tasks/task5_idfree.md)           |
-| Optional Extensions              | Dashboards, benchmark datasets, ML exploration       | [docs/tasks/task6_optional.md](./docs/tasks/task6_optional.md)       |
-| Reference Material               | Links to mzQC, pMultiQC, and SDRF docs               | [docs/resources.md](./docs/resources.md)                             |
-| Example Outputs                  | Example `.mzQC` files + validation tips              | [examples/](./examples)                                              |
+- [Tasks Overview](./docs/tasks/README.md): Summary of all hackathon tasks and roles
+- [Task 1 — mzQC Export in pMultiQC](./docs/tasks/task1_mzqc_export.md): Implement mzQC output generation
+- [Task 2 — Tiered QC Metrics](./docs/tasks/task2_metrics.md): Curate and define core/extended metrics
+- [Task 3 — Workflow Adapters](./docs/tasks/task3_adapters.md): Add support for new tools (e.g., FragPipe, MaxQuant)
+- [Task 4 — SDRF Integration](./docs/tasks/task4_sdrf.md): Link sample metadata to QC analyses
+- [Task 5 — ID-Free QC](./docs/tasks/task5_idfree.md): Develop raw-level QC modules
+- [Optional Extensions](./docs/tasks/task6_optional.md): Dashboards, benchmark datasets, ML exploration
+- [Reference Material](./docs/resources.md): Links to mzQC, pMultiQC, and SDRF docs
+- [Example Outputs](./examples): Example `.mzQC` files + validation tips
 
 ---
 
