@@ -40,6 +40,19 @@ Each pMultiQC module:
 
 ## Implementation Steps
 
+### 0. Work in the Hackathon Branch
+> [!WARNING]
+> All hackathon-related changes to pMultiQC should be made in the dedicated fork:
+> [https://github.com/MS-Quality-Hub/pmultiqc](https://github.com/MS-Quality-Hub/pmultiqc)
+
+- Fork this repository and create your feature branch from it, e.g.:
+  ```bash
+  git clone https://github.com/MS-Quality-Hub/pmultiqc.git
+  cd pmultiqc
+  git checkout -b feature/msfragger-import
+  pip install -e .
+- Do not modify the upstream `bigbio/pmultiqc` repository directly — this ensures clean integration of all hackathon contributions.
+
 1. **Choose your target tool or workflow**
    - Examples of good candidates: MSFragger, Mascot, MS-GF+, OpenMS.
    - Prefer tools with accessible output or log files (text, TSV, JSON, XML).
