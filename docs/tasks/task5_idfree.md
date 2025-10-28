@@ -89,7 +89,7 @@ plt.show()
 
 * Work with **mzML**, not proprietary vendor formats. If needed, use **ThermoRawFileParser** or **msconvert** to convert data.
 * Choose metrics that are **computationally light** — hackathon-friendly runtime (<1 min per file).
-* Leverage NiumPy/SciPy for efficient vector operations.
+* Leverage NumPy/SciPy for efficient vector operations.
 * If multiple team members compute different metrics, define a shared schema to merge outputs.
 * Coordinate with **Task 2** to ensure proposed metrics can be mapped to PSI-MS CV terms.
 * Coordinate with **Task 1** for mzQC export integration.
