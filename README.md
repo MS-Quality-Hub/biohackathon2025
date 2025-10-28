@@ -63,9 +63,9 @@ Build an end-to-end framework to enrich public proteomics datasets with **standa
 
 - BioHackEU Slack channel: `#29-towards-repository-scale-quality-control`.
 - Daily stand-up: 09:00.
-- Ideas or questions? Use [Discussions](/discussions).
-- Bugs / progress updates? Open [Issues](./issues).
-- Code changes: via [Pull Requests](./pulls).
+- Ideas or questions? Use [Discussions](https://github.com/MS-Quality-Hub/biohackathon2025/discussions).
+- Bugs / progress updates? Open [Issues](https://github.com/MS-Quality-Hub/biohackathon2025/issues).
+- Code changes: via [Pull Requests](https://github.com/MS-Quality-Hub/biohackathon2025/pulls).
 
 ### Contribution Workflow
 
