@@ -65,8 +65,7 @@ Start with a few basic ones; build up modularly.
 ### 4. (Optional) Integrate with pMultiQC
 
 If time allows:
-
-- Add your script/module as abn **adapter** to pMultiQC.
+- Add your script/module as an **adapter** to pMultiQC.
 - For example, detect raw files in a directory and compute ID-free QC alongside existing metrics.
 - Follow pMultiQC's contributing guide:
   [https://github.com/bigbio/pmultiqc/blob/main/CONTRIBUTING.md](https://github.com/bigbio/pmultiqc/blob/main/CONTRIBUTING.md)
