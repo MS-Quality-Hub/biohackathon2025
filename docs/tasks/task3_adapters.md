@@ -49,7 +49,7 @@ Each pMultiQC module:
   ```bash
   git clone https://github.com/MS-Quality-Hub/pmultiqc.git
   cd pmultiqc
-  git checkout -b feature/msfragger-import
+  git checkout -b feature/msfragger-adapter
   pip install -e .
 - Do not modify the upstream `bigbio/pmultiqc` repository directly — this ensures clean integration of all hackathon contributions.
 
@@ -58,15 +58,9 @@ Each pMultiQC module:
    - Prefer tools with accessible output or log files (text, TSV, JSON, XML).
 
 2. **Set up a development environment**
-   - Clone pMultiQC and follow the official contributing instructions: [pMultiQC Contributing Guidelines](https://github.com/bigbio/pmultiqc/blob/main/CONTRIBUTING.md)
-   - Install pMultiQC in editable mode:
-     ```bash
-     git clone https://github.com/bigbio/pmultiqc.git
-     cd pmultiqc
-     pip install -e .
-     ```
    - Review the pMultiQC developer documentation for architecture, module structure, and examples: [https://pmultiqc.quantms.org/](https://pmultiqc.quantms.org/)
    - Create a new branch for your module (e.g. `feature/msfragger-adapter`).
+   - Follow the official contributing instructions: [pMultiQC Contributing Guidelines](https://github.com/bigbio/pmultiqc/blob/main/CONTRIBUTING.md)
 
 3. **Add representative outputs for testing**
    - Place 1–2 **small** output files under: `tests/resources/<tool_name>/`.
