@@ -7,10 +7,10 @@
 ## Objectives
 
 By the end of this task, you should have:
-- [ ] A prototype **Python-based module or script** that computes one or more ID-free QC metrics from raw data files.
-- [ ] Example test datasets and example output in **mzQC format**.
-- [ ] Documentation showing how these metrics can complement identification-based QC (Task 1).
-- [ ] Optional: integration hooks for pMultiQC or repository pipelines.
+- [x] A prototype **Python-based module or script** that computes one or more ID-free QC metrics from raw data files.
+- [x] Example test datasets and example output in **mzQC format**.
+- [x] Documentation showing how these metrics can complement identification-based QC (Task 1).
+- [x] Optional: integration hooks for pMultiQC or repository pipelines.
 
 ---
 
