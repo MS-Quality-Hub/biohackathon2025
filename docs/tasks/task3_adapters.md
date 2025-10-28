@@ -72,7 +72,7 @@ Each pMultiQC module:
       - Detect your tool's files (glob patterns / filenames).
       - Parse the fields you need (counts, rates, distributions, TIC time series, etc.).
       - Store metrics in the internal dicts used by the report generator (mirroring existing adapters' keys/structures so plots and tables "just work").
-+  - Register your module so MultiQC loads it.
+   - Register your module so MultiQC loads it.
 
 5. **Map metrics to PSI-MS CV terms**
    - Use QC terms in the **MS:4000000–MS:4999999** range.
