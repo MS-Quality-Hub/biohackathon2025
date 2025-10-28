@@ -11,9 +11,9 @@ You can work solo or team up with others across Task 1–5 to extend, combine, o
 ## Objectives
 
 By the end of this task, you should have:
-- [ ] A **prototype or concept** that contributes to the broader goal of automated, standardized QC for proteomics.
-- [ ] A short **documentation page or demo** describing what your idea does and how it connects to the main project.
-- [ ] Optionally, example data, figures, or code that others can build upon after the hackathon.
+- [x] A **prototype or concept** that contributes to the broader goal of automated, standardized QC for proteomics.
+- [x] A short **documentation page or demo** describing what your idea does and how it connects to the main project.
+- [x] Optionally, example data, figures, or code that others can build upon after the hackathon.
 
 ---
 
