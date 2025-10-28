@@ -43,6 +43,19 @@ Internally, it already stores QC data as structured Python objects — the goal 
 
 ## Implementation Steps
 
+### 0. Work in the Hackathon Branch
+> [!WARNING]
+> All hackathon-related changes to pMultiQC should be made in the dedicated fork:
+> [https://github.com/MS-Quality-Hub/pmultiqc](https://github.com/MS-Quality-Hub/pmultiqc)
+
+- Fork this repository and create your feature branch from it, e.g.:
+  ```bash
+  git clone https://github.com/MS-Quality-Hub/pmultiqc.git
+  cd pmultiqc
+  git checkout -b feature/mzqc-export
+  pip install -e .
+- Do not modify the upstream `bigbio/pmultiqc` repository directly — this ensures clean integration of all hackathon contributions.
+
 1. **Explore pMultiQC's internal data structures**
    - Look under `pmultiqc/modules/` and identify where metrics are aggregated.
    - Identify which metadata (tool versions, file paths, timestamps) are available for provenance.
