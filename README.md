@@ -69,7 +69,17 @@ Build an end-to-end framework to enrich public proteomics datasets with **standa
 
 ### Contribution Workflow
 
-- Fork the repo and create a branch: `feature/<task-name>`.
-- Follow our [coding guidelines](./CONTRIBUTING.md).
-- Commit changes and reference your issue (e.g. "Fixes #12").
-- Open a PR → review → merge during daily sync.
+## 🤝 Contribution Workflow
+
+We welcome all contributions during the hackathon!
+To keep collaboration efficient and transparent:
+
+1. **Open an Issue first** — describe your planned feature or task, tag everyone involved, and be detailed so others can follow or join.
+   → This avoids duplicate efforts and keeps everyone aligned.
+2. **Create a branch** named `feature/<short-description>` for your work.
+3. **Commit and reference your issue**, e.g. `Fixes #12`.
+4. **Open a Pull Request (PR)** when ready — add a short summary and test results.
+5. **Discuss & merge** during the daily sync sessions.
+
+See the [CONTRIBUTING.md](CONTRIBUTING.md) for coding style, testing, and detailed workflow instructions.
+
