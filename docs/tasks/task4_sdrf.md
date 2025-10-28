@@ -2,7 +2,7 @@
 
 > **Goal:** Use **SDRF-Proteomics metadata** to guide QC generation and dataset annotation.
 
-This task focuses on connecting **sample metadata** (from SDRF files) with **QC metrics** (from pMultiQC / mzQC).  
+This task focuses on connecting **sample metadata** (from SDRF files) with **QC metrics** (from pMultiQC / mzQC).
 By linking sample- and experiment-level descriptors to QC values, we enable **metadata-driven quality assessment** — letting users explore and compare QC results grouped by experimental factors, instruments, or study design.
 
 ---
@@ -10,9 +10,9 @@ By linking sample- and experiment-level descriptors to QC values, we enable **me
 ## Objectives
 
 By the end of this task, you should have:
-- [x] Code that can **parse SDRF-Proteomics** metadata files and extract key descriptors.  
-- [x] Logic that **links each run's QC metrics** (from mzQC or pMultiQC output) to the corresponding SDRF sample row.  
-- [x] Prototype functionality to **group or summarize QC** by factors such as treatment, replicate, fraction, or instrument.  
+- [x] Code that can **parse SDRF-Proteomics** metadata files and extract key descriptors.
+- [x] Logic that **links each run's QC metrics** (from mzQC or pMultiQC output) to the corresponding SDRF sample row.
+- [x] Prototype functionality to **group or summarize QC** by factors such as treatment, replicate, fraction, or instrument.
 - [x] Example datasets, documentation, and a clear workflow description.
 
 ---
@@ -21,7 +21,7 @@ By the end of this task, you should have:
 
 ### What is SDRF-Proteomics?
 
-The **Sample and Data Relationship Format (SDRF)** defines how samples, runs, and data files are linked in proteomics studies.  
+The **Sample and Data Relationship Format (SDRF)** defines how samples, runs, and data files are linked in proteomics studies.
 It's part of the **Investigation/Study/Assay (ISA)** model used across omics and is central to **FAIR data practices**.
 
 - Repository: [https://github.com/bigbio/proteomics-sample-metadata](https://github.com/bigbio/proteomics-sample-metadata)
@@ -32,9 +32,9 @@ It's part of the **Investigation/Study/Assay (ISA)** model used across omics and
 
 Several public proteomics datasets already provide SDRF files in PRIDE or MassIVE.
 By parsing these alongside QC outputs, we can:
-- **Annotate QC results** with contextual metadata (sample type, instrument, fraction, etc.).  
-- **Compare QC metrics** across experimental factors (e.g. replicate reproducibility).  
-- Enable **repository-level dashboards** that allow filtering or grouping by metadata fields.  
+- **Annotate QC results** with contextual metadata (sample type, instrument, fraction, etc.).
+- **Compare QC metrics** across experimental factors (e.g. replicate reproducibility).
+- Enable **repository-level dashboards** that allow filtering or grouping by metadata fields.
 
 ---
 
@@ -53,7 +53,7 @@ By parsing these alongside QC outputs, we can:
 
 ### 2. Parse SDRF files
 
-- Use Python's `pandas` or the official SDRF utilities (in `sdrf-pipelines` package):  
+- Use Python's `pandas` or the official SDRF utilities (in `sdrf-pipelines` package):
   ```bash
   pip install sdrf-pipelines
   ```
