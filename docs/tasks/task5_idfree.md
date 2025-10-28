@@ -60,7 +60,7 @@ Start with a few basic ones; build up modularly.
 
 - Use the [mzQC format](https://hupo-psi.github.io/mzQC/) for standardized QC output.
 - mzQC files can be easily produced in Python ([pymzqc](https://github.com/MS-Quality-Hub/pymzqc)), R ([rmzqc](https://github.com/MS-Quality-Hub/rmzqc)), Java ([jmzqc](https://github.com/MS-Quality-Hub/jmzqc)).
-* Validate your `.mzQC` file using the [online validator](https://hupo-psi.github.io/mzQC/validator).
+- Validate your `.mzQC` file using the [online validator](https://hupo-psi.github.io/mzQC/validator).
 
 ### 4. (Optional) Integrate with pMultiQC
 
