@@ -1,0 +1,178 @@
+Functional Category	QC Metric / Concept	DDA	DIA	ID-based	ID-free	Usage / Source Notes	Proposed Tier	Unit	PSI-MS Accession Numbers	
+RETENTION TIME & CHROMATOGRAPHY STABILITY	Retention time calibration peptides	DDA	DIA	Partially ID-based	ID-free	Used to track LC performance across runs; standard in both DDA and DIA	1	minutes		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	iRT coverage / retention time calibration	Partially DDA	DIA	ID-based	NOT ID-free	Core DIA metric for RT alignment; requires identification of iRT peptides	2	count		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	iRT spike-in monitoring (each run)	Partially DDA	DIA	ID-based	NOT ID-free	Routine in DIA workflows for RT consistency; monitors identified iRT peptides	2	count		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	Retention time reproducibility / stability	DDA	DIA	Partially ID-based	ID-free	Standard QC for LC performance in both acquisition modes; measured from raw data	1	minutes		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	Retention time correction & alignment	DDA	DIA	Partially ID-based	ID-free	Critical for DIA; used in DDA for multi-run studies; can use raw or ID-based	2	minutes		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	RT reproducibility (PCA-based / multi-site)	DDA	DIA	ID-based	Partially ID-free	Multi-site harmonization studies; typically uses identified features	2	dimensionless		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	LC gradient stability monitoring	DDA	DIA	NOT ID_based	ID-free	Instrument-level QC; raw LC system monitoring	1	minutes		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	?LC gradient optimization	DDA	DIA	NOT ID_based	ID-free	Method development QC; monitors raw chromatographic performance	2	minutes		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	LC pressure stability	DDA	DIA	NOT ID_based	ID-free	System suitability check; direct instrument measurement	1	bar		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	Peak width / chromatographic separation efficiency	DDA	DIA	Partially ID-based	ID-free	FWHM measured from raw chromatograms; affects ID quality	2	seconds		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	UPLC repeatability and recovery	DDA	DIA	Partially ID-based	ID-free	CLSI-based LC system validation; raw performance metrics	2	percent		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	QC pools / in-run study pools	DDA	DIA	ID-based	ID-free	Standard practice in large-batch studies; monitors both raw and ID metrics	1	count		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	TIC overlap of pooled QC injections	DDA	DIA	NOT ID_based	ID-free	Visual QC for LC-MS stability; raw TIC chromatograms	2	arbitrary_units		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	LC MS signal / base peak stability	DDA	DIA	NOT ID_based	ID-free	Raw signal monitoring for instrument performance	1	arbitrary_units		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	Retention time alignment via MetWare QC DB	DDA	DIA	ID-based	Partially ID-free	MetWare pipeline-specific; primarily for metabolomics but adaptable	3	minutes		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	Cross-center retention consistency	DDA	DIA	Partially ID-based	ID-free	Multi-site harmonization QC; monitors RT reproducibility across centers	2	minutes		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	Real-time QC-based drift tracking	DDA	DIA	Partially ID-based	ID-free	Cloud-based QC monitoring; tracks raw and ID metrics in real-time	2	dimensionless		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	Instrument calibration verification (Preview)	DDA	DIA	NOT ID_based	ID-free	Pre-search QC using Protein Metrics Preview software	2	dimensionless		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	LC pressure and performance validation (instrument QC)	DDA	DIA	NOT ID_based	ID-free	System suitability; raw instrument monitoring	1	bar		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	Peak area stability (MS1 longitudinal)	DDA	DIA	Partially ID-based	ID-free	Longitudinal QC tracking; raw MS1 peak areas	2	arbitrary_units		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	RT stability (EAD platform)	DDA	NOT DIA	Partially ID-based	ID-free	Top-down proteomics platform-specific; monitors RT of intact proteins	3	minutes		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	RT consistency validation (MetWare pipeline)	DDA	DIA	ID-based	Partially ID-free	Multi-omics QC pipeline; validates RT alignment	3	minutes		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	LC MS/MS retention reproducibility (Q-Exactive HF-X)	DDA	DIA	Partially ID-based	ID-free	Instrument-specific QC; monitors LC-MS performance	2	minutes		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	RT stability (nanoLC 48-min gradient)	DDA	DIA	Partially ID-based	ID-free	Method-specific RT monitoring; raw chromatographic QC	2	minutes		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	Dynamic exclusion and PASEF cycle RT consistency	DDA	DIA	NOT ID_based	ID-free	timsTOF-specific; monitors acquisition cycle timing	3	milliseconds		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	Plate randomization (positional bias control)	DDA	DIA	NOT ID_based	ID-free	Sample handling QC; prevents position-based batch effects	2	dimensionless		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	Internal standard based RT normalization	DDA	DIA	ID-based	Partially ID-free	Normalizes RT using spiked standards; requires standard identification	2	dimensionless		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	Retention time calibration via iRT peptides	Partially DDA	DIA	ID-based	NOT ID-free	DIA-specific RT calibration; requires iRT peptide identification	2	minutes		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	Chromatographic reproducibility via PCA	DDA	DIA	ID-based	Partially ID-free	Multivariate QC; typically on identified features	2	dimensionless		
+RETENTION TIME & CHROMATOGRAPHY STABILITY	LOWESS drift correction	DDA	DIA	ID-based	Partially ID-free	Nonlinear regression-based drift correction; instrument stability	2	dimensionless		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	False Discovery Rate (FDR ? 1%)	DDA	DIA	ID-based	NOT ID-free	Universal proteomics standard; requires identifications	1	percent	MS:1002355	
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	"Q-value filtering (Spectronaut, Storey)"	Partially DDA	DIA	ID-based	NOT ID-free	Alternative to classical FDR; common in DIA workflows	2	dimensionless		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Peptide Spectrum Match (PSM) count	DDA	Partially DIA	ID-based	NOT ID-free	Primary DDA output; less emphasized in DIA (uses precursors)	1	count	MS:4000108	
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Number of identified peptides / proteins	DDA	DIA	ID-based	NOT ID-free	Standard depth metric in both DDA and DIA	1	count	MS:4000024	
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Peptide / protein FDR control via target-decoy	DDA	DIA	ID-based	NOT ID-free	Standard validation approach; requires database search	1	percent		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Protein group FDR (Picked Protein Group / mokapot)	DDA	DIA	ID-based	NOT ID-free	Advanced FDR control at protein level; CHIMERYS/MSAID platform	2	percent		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Entrapment test validation	DDA	DIA	ID-based	NOT ID-free	FDR validation using known false positives; CHIMERYS workflow	2	percent		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Sequence coverage (%)	DDA	DIA	ID-based	NOT ID-free	Protein identification quality metric; requires peptide IDs	2	percent		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Missed cleavages (%)	DDA	DIA	ID-based	NOT ID-free	Digestion efficiency QC; requires peptide sequence identification	1	percent	MS:4000141	
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Fragmentation efficiency / MS2 fill time	DDA	DIA	Partially ID-based	ID-free	Acquisition quality metric; raw ion statistics	2	milliseconds		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Fragment ion mass accuracy (ppm)	DDA	DIA	ID-based	Partially ID-free	Search quality metric; calculated from identified fragments	1	ppm	MS:4000140	
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Spectral utilization rate	DDA	Partially DIA	ID-based	NOT ID-free	DDA efficiency metric; ratio of identified to total spectra	2	percent		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Chimeric spectrum deconvolution accuracy	DDA	DIA	ID-based	Partially ID-free	Critical for co-fragmentation (DDA) and multiplexed spectra (DIA)	2	percent		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	"Spectral quality metrics (signal-to-noise, MS2/MS1 ratio)"	DDA	DIA	Partially ID-based	ID-free	Raw spectral quality assessment; measured pre-ID	1	dimensionless	MS:4000097	
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Isotopologue R  (linearity metric)	DDA	DIA	ID-based	NOT ID-free	Quantitative validation; requires isotopologue identification	2	dimensionless		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Q20 / Q30 sequencing quality	DDA	NOT DIA	ID-based	NOT ID-free	Specific to TMT-based workflows; sequence read quality	3	percent		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Enrichment / depletion bias (intensity)	DDA	DIA	ID-based	NOT ID-free	Workflow bias assessment; compares protein class intensities	2	fold_change		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Database search completeness / FASTA coverage	DDA	DIA	ID-based	NOT ID-free	Ensures appropriate database selection for identification	2	percent		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Internal reference protein validation	DDA	DIA	ID-based	NOT ID-free	Uses known proteins to validate identification pipeline	2	dimensionless		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Spectral library validation (library-free vs. library-based)	Partially DDA	DIA	ID-based	NOT ID-free	DIA-specific; compares library vs. library-free search results	2	percent		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Cross-platform identification concordance	DDA	DIA	ID-based	NOT ID-free	"Validates IDs across platforms (MS, Olink, SomaScan)"	2	percent		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Coefficient of variation of ID counts	DDA	DIA	ID-based	NOT ID-free	Reproducibility of identification depth across runs	2	percent		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Cross-cohort reproducibility of IDs	DDA	DIA	ID-based	NOT ID-free	Multi-cohort validation of identified proteins	2	percent		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Statistical ID validation (FDR-corrected p-values)	DDA	DIA	ID-based	NOT ID-free	Statistical confidence in differential protein identification	2	dimensionless		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	ROC-AUC validation for biomarkers	DDA	DIA	ID-based	NOT ID-free	Biomarker performance evaluation; requires identified targets	2	dimensionless		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	PCA-based clustering of identified proteins	DDA	DIA	ID-based	Partially ID-free	Multivariate QC on protein matrix; visualizes sample grouping	2	dimensionless		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Outlier detection based on ID metrics	DDA	DIA	ID-based	NOT ID-free	Flags samples with aberrant ID counts or patterns	1	dimensionless		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Replicate overlap / identification reproducibility	DDA	DIA	ID-based	NOT ID-free	Measures consistency of IDs across technical/biological replicates	2	percent		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Protein-level consistency (biological validation)	DDA	DIA	ID-based	NOT ID-free	"Validates identified proteins via orthogonal methods (WB, ELISA)"	2	percent		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	Meta-analysis reproducibility of ID directionality	DDA	DIA	ID-based	NOT ID-free	Multi-cohort consistency of up/down-regulation direction	2	percent		
+IDENTIFICATION CONFIDENCE (QUALITATIVE QC)	"Protein physicochemical properties (MW, pI, GRAVY)"	DDA	DIA	ID-based	NOT ID-free	Distribution checks for identification quality and artifact detection	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	Batch effect correction (ComBat / PCA-based)	DDA	DIA	ID-based	Partially ID-free	Standard cohort QC; applied to identified protein intensities	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	Batch correction consistency	DDA	DIA	ID-based	Partially ID-free	Validates effectiveness of batch correction algorithms	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	PCA-N neutralization QC workflow	DDA	DIA	ID-based	Partially ID-free	PCA-N workflow-specific; plasma proteomics batch correction	3	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	"Drift detection (AutoQC, QCLOUD2, QuiC)"	DDA	DIA	Partially ID-based	ID-free	Automated monitoring tools; track raw instrument performance	1	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	Sensitivity drift (peptide intensity over time)	DDA	DIA	ID-based	Partially ID-free	Longitudinal tracking of identified peptide intensities	2	percent		
+BATCH EFFECT & DRIFT DETECTION	Real-time drift tracking (cloud-based QC)	DDA	DIA	Partially ID-based	ID-free	MSAID platform; monitors metrics in real-time during acquisition	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	Outlier detection (low-quality runs)	DDA	DIA	ID-based	ID-free	Flags failed or aberrant runs using ID and raw metrics	1	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	Long-term QC monitoring (hundreds thousands of runs)	DDA	DIA	ID-based	ID-free	"Multi-site, longitudinal QC programs; tracks both metric types"	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	Cross-site drift and reproducibility analysis	DDA	DIA	ID-based	ID-free	Multi-center harmonization; compares performance across sites	2	percent		
+BATCH EFFECT & DRIFT DETECTION	Internal standard based normalization	DDA	DIA	ID-based	Partially ID-free	Spiked standards for drift correction; normalizes to identified peptides	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	QC pool based drift monitoring	DDA	DIA	ID-based	ID-free	Pooled QCs interspersed throughout batch; monitors both metrics	1	percent		
+BATCH EFFECT & DRIFT DETECTION	Median / quantile normalization	DDA	DIA	ID-based	Partially ID-free	Standard normalization on identified protein intensities	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	Cross-platform normalization / drift validation	DDA	DIA	ID-based	Partially ID-free	Harmonizes data across MS platforms and immunoassays	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	Instrument drift tracking via RT and TIC	DDA	DIA	NOT ID_based	ID-free	Raw metrics for instrument performance monitoring	1	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	Spectral intensity drift (MS1/MS2 level)	DDA	DIA	Partially ID-based	ID-free	Tracks raw signal intensity changes over time	2	percent		
+BATCH EFFECT & DRIFT DETECTION	Correlation-based batch validation (Pearson r)	DDA	DIA	ID-based	Partially ID-free	Correlates protein abundances across batches; validates reproducibility	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	Longitudinal variance control (RSD thresholds)	DDA	DIA	ID-based	Partially ID-free	Sets acceptable variation limits for longitudinal studies	2	percent		
+BATCH EFFECT & DRIFT DETECTION	Feature-level normalization (local or global)	DDA	DIA	ID-based	Partially ID-free	Normalizes protein/peptide intensities within or across batches	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	PCA-based clustering stability (batch monitoring)	DDA	DIA	ID-based	Partially ID-free	Visualizes batch effects via PCA; ensures samples cluster by biology not batch	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	Replicate correlation (inter-batch reproducibility)	DDA	DIA	ID-based	Partially ID-free	Measures consistency of replicates across different batches	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	Standard-based cross-instrument drift evaluation	DDA	DIA	ID-based	ID-free	Uses standard samples to compare performance across instruments	2	percent		
+BATCH EFFECT & DRIFT DETECTION	Cross-cohort drift detection and correction	DDA	DIA	ID-based	Partially ID-free	Harmonizes data across multiple cohorts or studies	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	Normalization validation (Quantro / Qsmooth)	DDA	DIA	ID-based	Partially ID-free	Statistical validation of normalization method suitability	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	Cross-run reproducibility of QC metrics	DDA	DIA	ID-based	ID-free	Tracks consistency of QC measurements across all runs	2	percent		
+BATCH EFFECT & DRIFT DETECTION	Shewhart / Westgard control charts	DDA	DIA	ID-based	ID-free	Statistical process control for QC monitoring over time	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	Hotelling T  outlier detection	DDA	DIA	ID-based	Partially ID-free	Multivariate outlier detection in QC sample space	2	dimensionless		
+BATCH EFFECT & DRIFT DETECTION	DModX (OPLS-DA distance to model)	DDA	DIA	ID-based	Partially ID-free	Model-based outlier detection and drift assessment	2	dimensionless		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	Mass accuracy	DDA	DIA	Partially ID-based	ID-free	Measured from raw spectra; critical for both acquisition modes	1	ppm	MS:4000019	
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	MS1 / MS2 signal intensity	DDA	DIA	NOT ID_based	ID-free	Raw signal measurement; instrument sensitivity metric	1	arbitrary_units	MS:4000103 (MS1 signal intensity)	
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	Base peak intensity (BPI)	DDA	DIA	NOT ID_based	ID-free	Raw chromatographic metric; acquisition quality indicator	1	arbitrary_units	MS:4000105	
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	MS2/MS1 spectral ratio	DDA	DIA	NOT ID_based	ID-free	Acquisition-level metric; duty cycle and fragmentation efficiency	2	dimensionless		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	Total Ion Current (TIC)	DDA	DIA	NOT ID_based	ID-free	Standard QC metric; raw signal independent of IDs	1	arbitrary_units	MS:4000104	
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	LC pressure / flow stability	DDA	DIA	NOT ID_based	ID-free	Direct instrument measurement; system suitability check	1	bar		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	Whole-proteome digest standard	DDA	DIA	ID-based	Partially ID-free	Standard sample for system suitability; assesses IDs and raw performance	1	dimensionless		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	Ion injection time	DDA	DIA	NOT ID_based	ID-free	Instrument acquisition parameter; AGC-related QC	2	milliseconds		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	Fragmentation efficiency	DDA	DIA	Partially ID-based	ID-free	MS2 quality metric; can be assessed pre- or post-ID	2	percent		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	Signal-to-noise ratio	DDA	DIA	Partially ID-based	ID-free	Raw spectral quality; calculated from spectra	1	dimensionless	MS:4000097	
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	Dynamic range / detector linearity	DDA	DIA	Partially ID-based	ID-free	Instrument performance characteristic; assessed via dilution series	2	dimensionless		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	Calibration verification (Preview or internal standard)	DDA	DIA	NOT ID_based	ID-free	Pre-search instrument QC; validates mass calibration	2	dimensionless		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	MS resolution and acquisition settings	DDA	DIA	NOT ID_based	ID-free	Instrument parameter documentation and validation	2	dimensionless		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	MS sensitivity drift	DDA	DIA	Partially ID-based	ID-free	Longitudinal tracking of instrument sensitivity	2	percent		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	Retention time calibration peptides (system suitability)	DDA	DIA	Partially ID-based	ID-free	LC system check; monitors RT stability of known peptides	1	minutes		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	QC standard-based performance report	DDA	DIA	ID-based	ID-free	Comprehensive QC using standard samples; tracks all metrics	1	dimensionless		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	Cross-instrument reproducibility (multi-site)	DDA	DIA	ID-based	ID-free	Multi-site studies; validates performance across instruments	2	percent		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	Internal QC standards / spiked controls	DDA	DIA	ID-based	Partially ID-free	Spiked peptides/proteins for internal normalization and QC	2	dimensionless		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	MS acquisition method reproducibility	DDA	DIA	Partially ID-based	ID-free	Validates consistency of acquisition parameters across runs	2	percent		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	Detector health tracking (AutoQC / QCLOUD2)	DDA	DIA	Partially ID-based	ID-free	Automated monitoring of detector performance over time	2	dimensionless		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	Instrument reproducibility via peptide standards	DDA	DIA	ID-based	Partially ID-free	Standard peptide mixtures to validate instrument performance	1	percent		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	QC signal normalization to standard	DDA	DIA	ID-based	Partially ID-free	Normalizes sample signals to internal or external standards	2	dimensionless		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	LC MS system suitability validation (daily check)	DDA	DIA	Partially ID-based	ID-free	Daily QC run before sample analysis; ensures system readiness	1	dimensionless		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	"Longitudinal QC metric tracking (MS1, MS2)"	DDA	DIA	Partially ID-based	ID-free	Long-term monitoring of MS1/MS2 signal quality	2	dimensionless		
+INSTRUMENT PERFORMANCE / SYSTEM SUITABILITY	FAIMS tuning and optimization	DDA	DIA	NOT ID_based	ID-free	High-field asymmetric waveform ion mobility spectrometry QC	3	volts		
+INTEGRATED / FRAMEWORK-LEVEL QC SYSTEMS	MSCohort QC Scoring System	NOT DDA	DIA	ID-based	Partially ID-free	DIA-specific comprehensive QC scoring framework (81 metrics)	2	dimensionless		
+INTEGRATED / FRAMEWORK-LEVEL QC SYSTEMS	CLSI C64 QC Framework	DDA	DIA	ID-based	ID-free	Clinical proteomics QC guideline; applicable to both acquisition modes	2	dimensionless		
+INTEGRATED / FRAMEWORK-LEVEL QC SYSTEMS	PCA-N Workflow	DDA	DIA	ID-based	Partially ID-free	Perchloric acid workflow with neutralization for plasma proteomics QC	3	dimensionless		
+INTEGRATED / FRAMEWORK-LEVEL QC SYSTEMS	AutoQC / QCLOUD2 / QuiC Monitoring	DDA	DIA	Partially ID-based	ID-free	Automated QC tracking tools for instrument stability monitoring	2	dimensionless		
+INTEGRATED / FRAMEWORK-LEVEL QC SYSTEMS	Longitudinal harmonization reports	DDA	DIA	ID-based	ID-free	"Multi-year, multi-site QC reporting systems"	2	dimensionless		
+INTEGRATED / FRAMEWORK-LEVEL QC SYSTEMS	GNPC / Olink / SomaScan platform QC	NOT DDA	NOT DIA	ID-based	Partially ID-free	QC frameworks for targeted proteomics and immunoassay platforms	3	dimensionless		
+INTEGRATED / FRAMEWORK-LEVEL QC SYSTEMS	MetWare QC Framework (multi-omics)	DDA	DIA	ID-based	Partially ID-free	Multi-omics QC pipeline for integrated proteomics/metabolomics	3	dimensionless		
+INTEGRATED / FRAMEWORK-LEVEL QC SYSTEMS	Spectronaut QC Engine	NOT DDA	DIA	ID-based	Partially ID-free	DIA-specific search engine with integrated QC metrics	2	dimensionless		
+INTEGRATED / FRAMEWORK-LEVEL QC SYSTEMS	MSAID Deterministic Processing Validation	DDA	DIA	ID-based	NOT ID-free	Ensures reproducible reprocessing with identical results (R=1.00)	2	dimensionless		
+INTEGRATED / FRAMEWORK-LEVEL QC SYSTEMS	mzQC Data Reporting Standard	DDA	DIA	ID-based	ID-free	Standardized format for structured QC reporting in proteomics	1	dimensionless		
+INTEGRATED / FRAMEWORK-LEVEL QC SYSTEMS	Cross-site / multi-instrument QC coordination	DDA	DIA	ID-based	ID-free	Harmonization of QC practices across multiple facilities	2	dimensionless		
+INTEGRATED / FRAMEWORK-LEVEL QC SYSTEMS	Comprehensive web-based QC integration (MSAID)	DDA	DIA	ID-based	Partially ID-free	Interactive QC visualization and data exploration platform	2	dimensionless		
+INTEGRATED / FRAMEWORK-LEVEL QC SYSTEMS	QC pool based automated drift assessment	DDA	DIA	ID-based	ID-free	Automated monitoring using interspersed pooled QC samples	1	dimensionless		
+INTEGRATED / FRAMEWORK-LEVEL QC SYSTEMS	QC scoring and visualization dashboard (QCeltis / MSAID)	Partially DDA	DIA	ID-based	ID-free	Comprehensive QC visualization and scoring interfaces	2	dimensionless		
+INTEGRATED / FRAMEWORK-LEVEL QC SYSTEMS	QComics standardized QC protocol	DDA	DIA	ID-based	ID-free	Metabolomics-focused QC guidelines adaptable to proteomics	2	dimensionless		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Coefficient of Variation (CV%)	DDA	DIA	ID-based	Partially ID-free	Universal reproducibility metric; typically on identified proteins	1	percent		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Relative Standard Deviation (RSD%)	DDA	DIA	ID-based	Partially ID-free	Precision metric for quantitative reproducibility	1	percent		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Pearson correlation (inter-run / inter-replicate)	DDA	DIA	ID-based	Partially ID-free	Correlates protein profiles across replicates or runs	1	dimensionless		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Quantitative reproducibility (protein / precursor level)	DDA	DIA	ID-based	NOT ID-free	Consistency of protein/precursor quantification across replicates	1	percent		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Number / % of missing values	DDA	DIA	ID-based	NOT ID-free	Data completeness metric; important for DIA especially	1	percent		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Missing value imputation QC (downshifted mean / SD)	DDA	DIA	ID-based	NOT ID-free	Handles missing protein values in quantitative matrix	2	dimensionless		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	PCA / t-SNE clustering reproducibility	DDA	DIA	ID-based	Partially ID-free	Multivariate visualization of sample reproducibility and grouping	2	dimensionless		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Quantitative linearity (R  of dilution curves / isotopologue response)	DDA	DIA	ID-based	Partially ID-free	Validates linear response of quantification over dynamic range	2	dimensionless		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Long-term QC monitoring (temporal drift tracking)	DDA	DIA	ID-based	ID-free	Tracks quantitative stability over extended time periods	2	percent		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Weekly / periodic performance reporting	DDA	DIA	ID-based	ID-free	Regular QC summaries for ongoing monitoring	2	dimensionless		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Cross-platform reproducibility (Olink ? SomaScan ? MS)	DDA	DIA	ID-based	NOT ID-free	Validates protein quantification across orthogonal platforms	2	dimensionless		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	"Biological replicate correlation (r, R )"	DDA	DIA	ID-based	Partially ID-free	Assesses biological variability vs technical reproducibility	2	dimensionless		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Technical replicate reproducibility (intra-run QC)	DDA	DIA	ID-based	ID-free	Standard practice; multiple injections of same sample	1	percent		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	CV threshold filtering (CV% < 20%)	DDA	DIA	ID-based	Partially ID-free	Removes low-quality quantifications before downstream analysis	2	percent		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Quantitative normalization reproducibility (pre/post)	DDA	DIA	ID-based	Partially ID-free	Validates effectiveness of normalization procedures	2	percent		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Replicate overlap / intersection reproducibility (%)	DDA	DIA	ID-based	NOT ID-free	Percentage of proteins detected consistently across replicates	2	percent		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	R  between predicted vs. observed (model stability)	DDA	DIA	ID-based	NOT ID-free	Validates predictive models built on proteomic data	2	dimensionless		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Inter-lab reproducibility (multi-site correlation)	DDA	DIA	ID-based	ID-free	Cross-laboratory harmonization and consistency validation	2	dimensionless		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Signal drift correction (normalized intensity over time)	DDA	DIA	ID-based	Partially ID-free	Corrects for time-dependent intensity drift in batch runs	2	dimensionless		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	"QC pooled sample reproducibility (RSD, CV%)"	DDA	DIA	ID-based	ID-free	Uses pooled QCs to monitor reproducibility throughout batch	1	percent		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	Volcano plot / heatmap reproducibility validation	DDA	DIA	ID-based	NOT ID-free	Visualizes differential expression consistency across studies	2	dimensionless		
+QUANTIFICATION PRECISION & REPRODUCIBILITY	CV distribution analysis (histogram / density plots)	DDA	DIA	ID-based	Partially ID-free	Visualizes overall quantitative precision distribution	2	percent		
+"PLATFORM-SPECIFIC: APTAMER-BASED (Olink, SomaScan)"	Hybridization normalization & calibration (ANML)	NOT DDA	NOT DIA	NOT ID_based	ID-free	SomaScan-specific; aptamer-based platform normalization using signal intensity	3	dimensionless		
+"PLATFORM-SPECIFIC: APTAMER-BASED (Olink, SomaScan)"	NPX (Normalized Protein eXpression) scaling	NOT DDA	NOT DIA	NOT ID_based	ID-free	Olink-specific; log2-scale relative quantification with internal controls	3	log2_scale		
+"PLATFORM-SPECIFIC: APTAMER-BASED (Olink, SomaScan)"	Inter-panel and intra-panel CV thresholds	NOT DDA	NOT DIA	NOT ID_based	ID-free	"Olink QC: inter-panel CV < 20%, intra-panel CV < 10%"	3	percent		
+"PLATFORM-SPECIFIC: APTAMER-BASED (Olink, SomaScan)"	Limit of Detection (LOD) filtering	NOT DDA	NOT DIA	ID-based	Partially ID-free	Exclusion of proteins below detection threshold	3	arbitrary_units		
+"PLATFORM-SPECIFIC: APTAMER-BASED (Olink, SomaScan)"	Bridging samples for cross-cohort harmonization	NOT DDA	NOT DIA	ID-based	Partially ID-free	Used to align NPX units across different cohorts or batches	3	dimensionless		
+"PLATFORM-SPECIFIC: APTAMER-BASED (Olink, SomaScan)"	Internal reference standards and buffer controls	NOT DDA	NOT DIA	NOT ID_based	ID-free	Plate-level QC for assay consistency and signal calibration	3	arbitrary_units		
+"PLATFORM-SPECIFIC: APTAMER-BASED (Olink, SomaScan)"	Outlier exclusion (>33% samples below LOD)	NOT DDA	NOT DIA	ID-based	Partially ID-free	Removes proteins with insufficient detection across sample set	3	percent		
+PLATFORM-SPECIFIC: TARGETED MS (SRM/MRM/PRM)	Heavy isotope-labeled internal standards (SIS)	NOT DDA	NOT DIA	ID-based	Partially ID-free	Stable isotope standards for absolute quantification and QC	3	arbitrary_units		
+PLATFORM-SPECIFIC: TARGETED MS (SRM/MRM/PRM)	Transition ion ratio validation	NOT DDA	NOT DIA	ID-based	NOT ID-free	Confirms identity via fragment ion ratio consistency	3	dimensionless		
+PLATFORM-SPECIFIC: TARGETED MS (SRM/MRM/PRM)	Calibration curve accuracy and precision	NOT DDA	NOT DIA	ID-based	NOT ID-free	Validates quantitative range and LOQ/LOD	3	dimensionless		
+PLATFORM-SPECIFIC: TARGETED MS (SRM/MRM/PRM)	Retention time shift monitoring (Q4SRM)	NOT DDA	NOT DIA	ID-based	Partially ID-free	Tracks RT stability of targeted peptides using heavy standards	3	minutes		
+PLATFORM-SPECIFIC: TARGETED MS (SRM/MRM/PRM)	PRM validation of DIA results	NOT DDA	DIA	ID-based	NOT ID-free	Orthogonal validation of DIA-identified differential proteins	2	percent 		
+PLATFORM-SPECIFIC: TARGETED MS (SRM/MRM/PRM)	Intra-assay and inter-assay CV monitoring	NOT DDA	NOT DIA	ID-based	Partially ID-free	Precision within and between analytical runs	3	percent 		
+PLATFORM-SPECIFIC: TARGETED MS (SRM/MRM/PRM)	System suitability checks (daily QC standards)	NOT DDA	NOT DIA	ID-based	ID-free	Pre-run validation ensuring instrument readiness	3	dimensionless		
+PLATFORM-SPECIFIC: TOP-DOWN PROTEOMICS	Proteoform-level FDR control	DDA	NOT DIA	ID-based	NOT ID-free	"FDR at proteoform, protein, and PrSM levels"	3	percent 		
+PLATFORM-SPECIFIC: TOP-DOWN PROTEOMICS	C-score thresholds	DDA	NOT DIA	ID-based	NOT ID-free	"Confidence score for proteoform identification (e.g., >40)"	3	dimensionless		
+PLATFORM-SPECIFIC: TOP-DOWN PROTEOMICS	"Artifact detection (FLASHDeconv, MSTopDiff)"	DDA	NOT DIA	ID-based	Partially ID-free	"Identifies oxidation, formylation, adduct artifacts in intact proteins"	3	count		
+PLATFORM-SPECIFIC: TOP-DOWN PROTEOMICS	Proteoform overlap across workflows	DDA	NOT DIA	ID-based	NOT ID-free	Complementarity analysis across sample prep methods	3	percent		
+PLATFORM-SPECIFIC: TOP-DOWN PROTEOMICS	EAD fragmentation optimization	DDA	NOT DIA	NOT ID_based	ID-free	Electron-activated dissociation parameter tuning for sequence coverage	3	dimensionless		
+PLATFORM-SPECIFIC: TOP-DOWN PROTEOMICS	Zeno trap signal gain validation	DDA	NOT DIA	NOT ID_based	ID-free	MS2 signal enhancement verification (6-12  gain)	3	fold_change		
+PLATFORM-SPECIFIC: TOP-DOWN PROTEOMICS	Intact protein mass accuracy (<1 ppm)	DDA	NOT DIA	Partially ID-based	ID-free	Validates accurate mass measurement of intact proteoforms	3	ppm		
+PLATFORM-SPECIFIC: SINGLE-CELL PROTEOMICS	QuantQC metrics suite	Partially DDA	DIA	ID-based	ID-free	"Sample prep quality, droplet stability, digestion efficiency, S/N ratio"	3	dimensionless		
+PLATFORM-SPECIFIC: SINGLE-CELL PROTEOMICS	Coverage filtering (?65% proteome coverage)	Partially DDA	DIA	ID-based	NOT ID-free	Excludes single-cell samples with insufficient protein detection	3	percent		
+PLATFORM-SPECIFIC: SINGLE-CELL PROTEOMICS	Peptide protein agreement validation	Partially DDA	DIA	ID-based	NOT ID-free	Ensures consistency between peptide and protein-level quantification	3	percent		
+PLATFORM-SPECIFIC: SINGLE-CELL PROTEOMICS	Detection rate thresholds (?80% per group)	Partially DDA	DIA	ID-based	NOT ID-free	Includes only proteins detected in majority of cells within group	3	percent		
+PLATFORM-SPECIFIC: SINGLE-CELL PROTEOMICS	Droplet dispensing stability (nPOP)	Partially DDA	DIA	NOT ID_based	ID-free	Validates consistent droplet generation for multiplexed sample prep	3	dimensionless		
+PLATFORM-SPECIFIC: SINGLE-CELL PROTEOMICS	Carrier proteome consistency	Partially DDA	DIA	ID-based	Partially ID-free	Monitors carrier channel signal for batch normalization	3	percent		
