@@ -59,6 +59,14 @@ Build an end-to-end framework to enrich public proteomics datasets with **standa
 
 ---
 
+## Schedule
+
+We will follow the official BioHackathon Europe daily programme:
+https://biohackathon-europe.org/programme/
+
+**Stand-up:** Every day at **09:00**.
+We'll use Slack for quick updates and alignments; checkpoints and demos follow the event's program.
+
 ## Collaboration & Contribution
 
 - BioHackEU Slack channel: `#29-towards-repository-scale-quality-control`.
