@@ -55,7 +55,7 @@ Build an end-to-end framework to enrich public proteomics datasets with **standa
 - [Task 5 — ID-Free QC](./docs/tasks/task5_idfree.md): Develop raw-level QC modules
 - [Optional Extensions](./docs/tasks/task6_optional.md): Dashboards, benchmark datasets, ML exploration
 - [Reference Material](./docs/resources.md): Links to mzQC, pMultiQC, and SDRF docs
-- [Example Outputs](./examples): Example `.mzQC` files + validation tips
+- [Example Outputs](https://hupo-psi.github.io/mzQC/examples/): Example `.mzQC` files + validation tips
 
 ---
 
