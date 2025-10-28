@@ -50,7 +50,7 @@ Build an end-to-end framework to enrich public proteomics datasets with **standa
 - [Tasks Overview](./docs/tasks/README.md): Summary of all hackathon tasks and roles
 - [Task 1 — mzQC Export in pMultiQC](./docs/tasks/task1_mzqc_export.md): Implement mzQC output generation
 - [Task 2 — Tiered QC Metrics](./docs/tasks/task2_metrics.md): Curate and define core/extended metrics
-- [Task 3 — Workflow Adapters](./docs/tasks/task3_adapters.md): Add support for new tools (e.g., FragPipe)
+- [Task 3 — Workflow Adapters](./docs/tasks/task3_adapters.md): Add support for new tools
 - [Task 4 — SDRF Integration](./docs/tasks/task4_sdrf.md): Link sample metadata to QC analyses
 - [Task 5 — ID-Free QC](./docs/tasks/task5_idfree.md): Develop raw-level QC modules
 - [Optional Extensions](./docs/tasks/task6_optional.md): Dashboards, benchmark datasets, ML exploration
