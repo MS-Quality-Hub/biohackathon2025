@@ -77,8 +77,6 @@ We'll use Slack for quick updates and alignments; checkpoints and demos follow t
 
 ### Contribution Workflow
 
-## 🤝 Contribution Workflow
-
 We welcome all contributions during the hackathon!
 To keep collaboration efficient and transparent:
 
