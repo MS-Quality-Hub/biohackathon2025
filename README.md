@@ -16,7 +16,7 @@ By the end of the week, our prototype will:
 - Define a **core QC metric ontology** adopted across tools.
 - Leverage metadata to **inform and contextualize QC analyses**.
 - Pave the way for **FAIR, ML-ready proteomics data reuse**.
-- Provide an **ID-free QC modules for raw-data assessment**.
+- Provide an **ID-free QC module for raw-data assessment**.
 
 If you're excited about open science, reproducible bioinformatics, and hands-on development with real impact on the global proteomics community — **join us!**
 
@@ -74,7 +74,7 @@ We'll use Slack for quick updates and alignments; checkpoints and demos follow t
 - Daily stand-up: 09:00.
 - Ideas or questions? Use [Discussions](https://github.com/MS-Quality-Hub/biohackathon2025/discussions).
 - Bugs / progress updates? Open [Issues](https://github.com/MS-Quality-Hub/biohackathon2025/issues).
-- Code changes: via Pull Requests to our [hackathon forks](https://github.com/MS-Quality-Hub).
+- Code changes: via [Pull Requests](https://github.com/MS-Quality-Hub/biohackathon2025/pulls).
 
 ### Contribution Workflow
 
