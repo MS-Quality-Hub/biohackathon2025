@@ -10,6 +10,7 @@ By the end of this task, you should have:
 - [x] A prototype **Python-based module or script** that computes one or more ID-free QC metrics from raw data files.
 - [x] Example test datasets and example output in **mzQC format**.
 - [x] Documentation showing how these metrics can complement identification-based QC (Task 1).
+- [x] Create a workflow (e.g. Nextflow) for the execution on any PRIDE dataset.
 - [x] Optional: integration hooks for pMultiQC or repository pipelines.
 
 ---
@@ -62,7 +63,12 @@ Start with a few basic ones; build up modularly.
 - mzQC files can be easily produced in Python ([pymzqc](https://github.com/MS-Quality-Hub/pymzqc)), R ([rmzqc](https://github.com/MS-Quality-Hub/rmzqc)), Java ([jmzqc](https://github.com/MS-Quality-Hub/jmzqc)).
 - Validate your `.mzQC` file using the [online validator](https://hupo-psi.github.io/mzQC/validator).
 
-### 4. (Optional) Integrate with pMultiQC
+### 4. Workflow creation
+
+- Choose a widely used pipeline enginge (e.g. Nextflow, SnakeMake) you are familiar with.
+- Create a workflow, which needs only few parameters (in the best case only PXD number) to extract mzQC values from a dataset.
+
+### 5. (Optional) Integrate with pMultiQC
 
 If time allows:
 - Add your script/module as an **adapter** to pMultiQC.
@@ -70,7 +76,7 @@ If time allows:
 - Follow pMultiQC's contributing guide:
   [https://github.com/bigbio/pmultiqc/blob/main/CONTRIBUTING.md](https://github.com/bigbio/pmultiqc/blob/main/CONTRIBUTING.md)
 
-### 5. (Optional) Visualize metrics
+### 6. (Optional) Visualize metrics
 
 Generate quick summary plots to demonstrate your results:
 

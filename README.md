@@ -16,6 +16,7 @@ By the end of the week, our prototype will:
 - Define a **core QC metric ontology** adopted across tools.
 - Leverage metadata to **inform and contextualize QC analyses**.
 - Pave the way for **FAIR, ML-ready proteomics data reuse**.
+- Provide an **ID-free QC module for raw-data assessment**.
 
 If you're excited about open science, reproducible bioinformatics, and hands-on development with real impact on the global proteomics community — **join us!**
 
