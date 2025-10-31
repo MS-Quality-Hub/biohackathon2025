@@ -10,7 +10,7 @@ By the end of this task, you should have:
 - [x] A prototype **Python-based module or script** that computes one or more ID-free QC metrics from raw data files.
 - [x] Example test datasets and example output in **mzQC format**.
 - [x] Documentation showing how these metrics can complement identification-based QC (Task 1).
-- [x] create a workflow (e.g. Nextflow) for the execution on any PRIDE dataset.
+- [x] Create a workflow (e.g. Nextflow) for the execution on any PRIDE dataset.
 - [x] Optional: integration hooks for pMultiQC or repository pipelines.
 
 ---
