@@ -65,8 +65,8 @@ Start with a few basic ones; build up modularly.
 
 ### 4. Workflow creation
 
-- Chose a widely used pipeline enginge (e.g. Nextflow, SnakeMake) you are familiar with
-- Create a workflow, which needs only few parameters (in the best case only PXD number) to extract mzQC values from a dataset
+- Choose a widely used pipeline enginge (e.g. Nextflow, SnakeMake) you are familiar with.
+- Create a workflow, which needs only few parameters (in the best case only PXD number) to extract mzQC values from a dataset.
 
 ### 5. (Optional) Integrate with pMultiQC
 
